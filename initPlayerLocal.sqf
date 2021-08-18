@@ -9,9 +9,9 @@ then
             headers = [];
             postData  = "";
             if (_mapIsOpened) then {
-                postData = '{ "item": 9, "render":  true}';
+                postData = '{ "source": "Quellenspiegel", "render":  true}';
             } else {
-                postData = '{ "item": 9, "render":  false}';
+                postData = '{ "source": "Quellenspiegel", "render":  false}';
             };
             private _response = [
                     url,
